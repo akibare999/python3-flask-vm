@@ -1,0 +1,8 @@
+flask
+httpie
+jinja2
+praw
+pytest
+slackclient
+twine
+wheel
