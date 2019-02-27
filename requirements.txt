@@ -1,3 +1,4 @@
+chalice
 flask
 httpie
 jinja2
