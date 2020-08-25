@@ -1,4 +1,4 @@
-FROM	python:3
+FROM	python:3.7
 
 ENV	WEB_PORT	8000
 ENV    LANG            C.UTF-8
@@ -8,6 +8,7 @@ ENV    LANG            C.UTF-8
 RUN	set -x \
 	&&	apt-get update \
 	&&	apt-get install -y --no-install-recommends \
+			ffmpeg \
 			tree \
 			vim \
 			zsh \
